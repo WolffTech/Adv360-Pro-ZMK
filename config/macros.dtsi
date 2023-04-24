@@ -1,14 +1,8 @@
-macro_max_meta: macro_max_meta{
-compatible = "zmk,behavior-macro";
-label = "macro_max_meta";
-#binding-cells = <0>;
-bindings = <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kt LEFT_META>;
-};
 macro_win_eval: macro_win_eval{
 compatible = "zmk,behavior-macro";
 label = "macro_win_eval";
 #binding-cells = <0>;
-bindings = <&macro max_meta>, <&kp R>, <&macro max_meta>;
+bindings = <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kt LEFT_META>, <&kp R>, <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kt LEFT_META>;
 };
 macro_win_screen_4: macro_win_screen_4{
 compatible = "zmk,behavior-macro";

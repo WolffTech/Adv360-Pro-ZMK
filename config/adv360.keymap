@@ -69,11 +69,11 @@
 
         layer_Win_App {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &bootloader                                                  &bootloader  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                       &trans   &none   &none   &none   &none  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans   &none   &none   &none   &none  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans                  &trans  &trans       &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &bootloader                                                       &bootloader                  &trans                 &trans                  &trans                  &trans             &trans           &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                  &macro_ctrl_down    &macro_win_swap_left  &macro_win_pane_srink  &macro_win_pane_expand   &macro_win_swap_right     &macro_ctrl_up           &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_ctrl_left  &macro_win_screen_left  &macro_win_focus_left  &macro_win_focus_right  &macro_win_screen_righ  &macro_ctrl_right  &macro_win_eval
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans     &macro_win_screen_1    &macro_win_screen_2     &macro_win_screen_3     &macro_win_screen_4             &trans           &trans
+ &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans                  &trans  &trans            &trans                                         &trans                  &trans                  &trans             &trans           &trans
             >;
         };
 

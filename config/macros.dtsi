@@ -104,13 +104,13 @@ macro_screensave: macro_screensave{
 compatible = "zmk,behavior-macro";
 label = "macro_screensave";
 #binding-cells = <0>;
-bindings = <&macro spot>, <&kp S>, <&kp C>, <&kp R>, <&kp E>, <&kp ENTER>;
+bindings = <&kt LEFT_META>, <&kp SPACE>, <&kt LEFT_META>, <&kp S>, <&kp C>, <&kp R>, <&kp E>, <&kp ENTER>;
 };
 macro_lock: macro_lock{
 compatible = "zmk,behavior-macro";
 label = "macro_lock";
 #binding-cells = <0>;
-bindings = <&macro spot>, <&kp L>, <&kp O>, <&kp C>, <&kp K>, <&kp ENTER>;
+bindings = <&kt LEFT_META>, <&kp SPACE>, <&kt LEFT_META>, <&kp L>, <&kp O>, <&kp C>, <&kp K>, <&kp ENTER>;
 };
 macro_spot: macro_spot{
 compatible = "zmk,behavior-macro";

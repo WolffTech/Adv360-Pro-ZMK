@@ -1,3 +1,9 @@
+macro_slidepad: macro_slidepad{
+compatible = "zmk,behavior-macro";
+label = "macro_slidepad";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp SPACE>;
+};
 macro_win_eval: macro_win_eval{
 compatible = "zmk,behavior-macro";
 label = "macro_win_eval";

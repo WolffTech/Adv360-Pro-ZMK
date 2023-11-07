@@ -69,11 +69,11 @@
 
         layer_Win_App {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                            &trans             &trans             &trans             &trans              &trans             &trans           &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &macro_ctrl_down   &macro_swap_left  &macro_win_shrink  &macro_win_expand   &macro_swap_right     &macro_ctrl_up           &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &macro_ctrl_left  &macro_focus_left    &macro_scn_left   &macro_scn_right  &macro_focus_right  &macro_ctrl_right  &macro_win_eval
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                                  &macro_win1        &macro_win2        &macro_win3         &macro_win4             &trans           &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans            &trans                                &trans             &trans              &trans             &trans           &trans
             >;
         };
 

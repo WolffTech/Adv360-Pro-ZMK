@@ -112,12 +112,6 @@ label = "macro_ss";
 #binding-cells = <0>;
 bindings = <&kt LEFT_COMMAND>, <&kp SPACE>, <&kt LEFT_COMMAND>, <&kp S>, <&kp C>, <&kp R>, <&kp E>, <&kp ENTER>;
 };
-macro_float: macro_float{
-compatible = "zmk,behavior-macro";
-label = "macro_float";
-#binding-cells = <0>;
-bindings = <&kt LEFT_CONTROL>, <&kp Z>, <&kt LEFT_CONTROL>;
-};
 macro_term: macro_term{
 compatible = "zmk,behavior-macro";
 label = "macro_term";

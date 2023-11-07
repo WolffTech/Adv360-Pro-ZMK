@@ -136,42 +136,6 @@ label = "macro_slidepad";
 #binding-cells = <0>;
 bindings = <&sk LEFT_CONTROL>, <&kp SPACE>;
 };
-macro_win_screen_left: macro_win_screen_left{
-compatible = "zmk,behavior-macro";
-label = "macro_win_screen_left";
-#binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp J>;
-};
-macro_win_pane_expand: macro_win_pane_expand{
-compatible = "zmk,behavior-macro";
-label = "macro_win_pane_expand";
-#binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp K>;
-};
-macro_win_pane_srink: macro_win_pane_srink{
-compatible = "zmk,behavior-macro";
-label = "macro_win_pane_srink";
-#binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp J>;
-};
-macro_win_swap_right: macro_win_swap_right{
-compatible = "zmk,behavior-macro";
-label = "macro_win_swap_right";
-#binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp L>;
-};
-macro_win_swap_left: macro_win_swap_left{
-compatible = "zmk,behavior-macro";
-label = "macro_win_swap_left";
-#binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp H>;
-};
-macro_screensave: macro_screensave{
-compatible = "zmk,behavior-macro";
-label = "macro_screensave";
-#binding-cells = <0>;
-bindings = <&kt LEFT_META>, <&kp SPACE>, <&kt LEFT_META>, <&kp S>, <&kp C>, <&kp R>, <&kp E>, <&kp ENTER>;
-};
 macro_lock: macro_lock{
 compatible = "zmk,behavior-macro";
 label = "macro_lock";

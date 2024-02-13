@@ -8,8 +8,7 @@
     "Num+Symbol",
     "Win+App",
     "Media",
-    "Divorak",
-    "Divorak Shift"
+    "Divorak"
   ],
   "layers": [
     [
@@ -43,17 +42,11 @@
            "&trans",       "&trans",       "&trans",      "&bl BL_DEC",   "&bl BL_INC",       "&trans",                                    "&trans",                     "&trans",                            "&trans",               "&trans",               "&trans",          "&trans",     "&trans",   "&trans",
            "&trans",       "&trans",       "&trans",          "&trans",       "&trans",                                "&trans", "&trans", "&trans",                     "&trans", "&trans",      "&trans",                       "&kp C_PREV",    "&kp C_VOLUME_DOWN", "&kp C_VOLUME_UP", "&kp C_NEXT", "&kp C_PP"
     ], [
-       "&kp DOLLAR",       "&kp PLUS", "&kp LEFT_BRACKET", "&kp LEFT_BRACE", "&kp LEFT_PARENTHESIS", "&kp EQUAL",           "&trans",                                                             "&trans", "&kp EQUAL", "&kp RIGHT_PARENTHESIS", "&kp RIGHT_BRACE", "&kp RIGHT_BRACKET", "&kp ASTRK",    "&kp EXCLAMATION",
-           "&trans",  "&kp SEMICOLON",        "&kp COMMA",     "&kp PERIOD",                "&kp P",     "&kp Y",           "&trans",                                                             "&trans",     "&kp F",                 "&kp G",           "&kp C",             "&kp R",     "&kp L",      "&kp BACKSLASH",
-           "&trans",          "&kp A",            "&kp O",          "&kp E",                "&kp U",     "&kp I",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",     "&kp D",                 "&kp H",           "&kp T",             "&kp N",     "&kp S",          "&kp MINUS",
-           "&trans", "&kp APOSTROPHE",            "&kp Q",          "&kp J",                "&kp K",     "&kp X",                               "&trans",                     "&trans",                         "&kp B",                 "&kp M",           "&kp W",             "&kp V",     "&kp Z",             "&trans",
-           "&trans",         "&trans",           "&trans",         "&trans",               "&trans",                        "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                             "&trans",          "&trans",            "&trans",    "&trans", "&macro_shift_layer"
-    ], [
-       "&kp GRAVE",            "&kp N1",        "&kp N2",           "&kp N3", "&kp N4", "&kp N5",           "&trans",                                                             "&trans", "&kp N6", "&kp N7", "&kp N8", "&kp N9",    "&kp N0", "&trans",
-          "&trans",         "&kp COLON", "&kp LESS_THAN", "&kp GREATER_THAN",  "&kp P",  "&kp Y",           "&trans",                                                             "&trans",  "&kp F",  "&kp G",  "&kp C",  "&kp R", "&kp CARET", "&trans",
-          "&trans",             "&kp A",         "&kp O",            "&kp E",  "&kp U",  "&kp I",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",  "&kp D",  "&kp H",  "&kp T",  "&kp N",     "&kp S", "&trans",
-          "&trans", "&kp DOUBLE_QUOTES",         "&kp Q",            "&kp J",  "&kp K",  "&kp X",                               "&trans",                     "&trans",                      "&kp B",  "&kp M",  "&kp W",  "&kp V",     "&kp Z", "&trans",
-          "&trans",            "&trans",        "&trans",           "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",    "&trans", "&trans"
+       "&kp GRAVE",       "&kp PLUS", "&kp LEFT_BRACKET", "&kp LEFT_BRACE", "&kp LEFT_PARENTHESIS", "&kp AMPERSAND",            "&kp HASH",                                                             "&kp CARET", "&kp EQUAL", "&kp RIGHT_PARENTHESIS", "&kp RIGHT_BRACE", "&kp RIGHT_BRACKET", "&kp ASTRK", "&kp EXCLAMATION",
+          "&trans",  "&kp SEMICOLON",        "&kp COMMA",     "&kp PERIOD",                "&kp P",         "&kp Y",              "&trans",                                                                "&trans",     "&kp F",                 "&kp G",           "&kp C",             "&kp R",     "&kp L",   "&kp BACKSLASH",
+          "&trans",          "&kp A",            "&kp O",          "&kp E",                "&kp U",         "&kp I",           "&kp EQUAL", "&trans", "&trans",                     "&trans", "&trans", "&kp SLASH",     "&kp D",                 "&kp H",           "&kp T",             "&kp N",     "&kp S",       "&kp MINUS",
+          "&trans", "&kp APOSTROPHE",            "&kp Q",          "&kp J",                "&kp K",         "&kp X",                                  "&trans",                     "&trans",                            "&kp B",                 "&kp M",           "&kp W",             "&kp V",     "&kp Z",          "&trans",
+          "&trans",         "&trans",           "&trans",         "&trans",               "&trans",                               "&trans", "&trans", "&trans",                     "&trans", "&trans",    "&trans",                             "&trans",          "&trans",            "&trans",    "&trans",          "&trans"
     ]
   ]
 }

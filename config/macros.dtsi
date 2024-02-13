@@ -1,3 +1,63 @@
+macro_win_split: macro_win_split{
+compatible = "zmk,behavior-macro";
+label = "macro_win_split";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp E>;
+};
+macro_win_rotate: macro_win_rotate{
+compatible = "zmk,behavior-macro";
+label = "macro_win_rotate";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp R>;
+};
+macro_win_fullscreen: macro_win_fullscreen{
+compatible = "zmk,behavior-macro";
+label = "macro_win_fullscreen";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp F>;
+};
+macro_throw3: macro_throw3{
+compatible = "zmk,behavior-macro";
+label = "macro_throw3";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp N3>;
+};
+macro_throw2: macro_throw2{
+compatible = "zmk,behavior-macro";
+label = "macro_throw2";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp N2>;
+};
+macro_throw1: macro_throw1{
+compatible = "zmk,behavior-macro";
+label = "macro_throw1";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp N1>;
+};
+macro_win6: macro_win6{
+compatible = "zmk,behavior-macro";
+label = "macro_win6";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&kp N6>;
+};
+macro_win5: macro_win5{
+compatible = "zmk,behavior-macro";
+label = "macro_win5";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&kp N5>;
+};
+macro_focus_down: macro_focus_down{
+compatible = "zmk,behavior-macro";
+label = "macro_focus_down";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp J>;
+};
+macro_focus_up: macro_focus_up{
+compatible = "zmk,behavior-macro";
+label = "macro_focus_up";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp K>;
+};
 macro_shift_layer: macro_shift_layer{
 compatible = "zmk,behavior-macro";
 label = "macro_shift_layer";
@@ -16,41 +76,17 @@ label = "macro_win_shrink";
 #binding-cells = <0>;
 bindings = <&sk LEFT_ALT>, <&kp J>;
 };
-macro_swap_right: macro_swap_right{
-compatible = "zmk,behavior-macro";
-label = "macro_swap_right";
-#binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp L>;
-};
-macro_swap_left: macro_swap_left{
-compatible = "zmk,behavior-macro";
-label = "macro_swap_left";
-#binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp H>;
-};
 macro_focus_right: macro_focus_right{
 compatible = "zmk,behavior-macro";
 label = "macro_focus_right";
 #binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp L>;
+bindings = <&sk LEFT_ALT>, <&kp L>;
 };
 macro_focus_left: macro_focus_left{
 compatible = "zmk,behavior-macro";
 label = "macro_focus_left";
 #binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp H>;
-};
-macro_scn_right: macro_scn_right{
-compatible = "zmk,behavior-macro";
-label = "macro_scn_right";
-#binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp K>;
-};
-macro_scn_left: macro_scn_left{
-compatible = "zmk,behavior-macro";
-label = "macro_scn_left";
-#binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp J>;
+bindings = <&sk LEFT_ALT>, <&kp H>;
 };
 macro_ctrl_down: macro_ctrl_down{
 compatible = "zmk,behavior-macro";
@@ -80,31 +116,25 @@ macro_win4: macro_win4{
 compatible = "zmk,behavior-macro";
 label = "macro_win4";
 #binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp PERIOD>;
+bindings = <&sk LEFT_CONTROL>, <&kp N4>;
 };
 macro_win3: macro_win3{
 compatible = "zmk,behavior-macro";
 label = "macro_win3";
 #binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp COMMA>;
+bindings = <&sk LEFT_CONTROL>, <&kp N3>;
 };
 macro_win2: macro_win2{
 compatible = "zmk,behavior-macro";
 label = "macro_win2";
 #binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp M>;
+bindings = <&sk LEFT_CONTROL>, <&kp N2>;
 };
 macro_win1: macro_win1{
 compatible = "zmk,behavior-macro";
 label = "macro_win1";
 #binding-cells = <0>;
-bindings = <&sk LEFT_CONTROL>, <&kp N>;
-};
-macro_win_eval: macro_win_eval{
-compatible = "zmk,behavior-macro";
-label = "macro_win_eval";
-#binding-cells = <0>;
-bindings = <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kt LEFT_COMMAND>, <&kp R>, <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kt LEFT_WIN>;
+bindings = <&sk LEFT_CONTROL>, <&kp N1>;
 };
 macro_lock: macro_lock{
 compatible = "zmk,behavior-macro";
